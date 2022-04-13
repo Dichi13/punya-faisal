@@ -2,6 +2,7 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
 WORKDIR /app
+RUN apt-get update -qq && apt-get -y install libgdiplus libc6-dev
 EXPOSE 80
 EXPOSE 443
 
@@ -19,4 +20,5 @@ RUN dotnet publish "Binus.BL.CertificateGenerator.csproj" -c Release -o /app/pub
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+RUN chmod 755 /app/Rotativa/Linux/wkhtmltopdf
 ENTRYPOINT ["dotnet", "Binus.BL.CertificateGenerator.dll"]
