@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binus.BL.CertificateGenerator", "Binus.BL.CertificateGenerator\Binus.BL.CertificateGenerator.csproj", "{2B254695-1DE4-471A-8579-F14C762E653E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B254695-1DE4-471A-8579-F14C762E653E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B254695-1DE4-471A-8579-F14C762E653E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B254695-1DE4-471A-8579-F14C762E653E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B254695-1DE4-471A-8579-F14C762E653E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D500763-902E-473D-BFAD-1C7526DA9879}
+	EndGlobalSection
+EndGlobal

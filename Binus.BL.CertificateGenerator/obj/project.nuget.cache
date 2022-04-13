@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JEWIwtJCvtopurmgYvakNC5cMxgGptq8ualinnx5dK6Cj9hguEGxD2b7SSMdRuVU39sTGQgn2L8b2NMgkdwbhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dichi\\source\\repos\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dichi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}
