@@ -36,6 +36,8 @@ namespace Binus.BL.CertificateGenerator
                 app.UseDeveloperExceptionPage();
             }
 
+            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dichi\\source\\repos\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator.csproj": {}
+    "D:\\Work-Beelingua\\Dhuaar\\3.1\\punya-faisal\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dichi\\source\\repos\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator.csproj": {
+    "D:\\Work-Beelingua\\Dhuaar\\3.1\\punya-faisal\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dichi\\source\\repos\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator.csproj",
+        "projectUniqueName": "D:\\Work-Beelingua\\Dhuaar\\3.1\\punya-faisal\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator.csproj",
         "projectName": "Binus.BL.CertificateGenerator",
-        "projectPath": "C:\\Users\\Dichi\\source\\repos\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator.csproj",
-        "packagesPath": "C:\\Users\\Dichi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dichi\\source\\repos\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator\\obj\\",
+        "projectPath": "D:\\Work-Beelingua\\Dhuaar\\3.1\\punya-faisal\\Binus.BL.CertificateGenerator\\Binus.BL.CertificateGenerator.csproj",
+        "packagesPath": "C:\\Users\\faisa\\.nuget\\packages\\",
+        "outputPath": "D:\\Work-Beelingua\\Dhuaar\\3.1\\punya-faisal\\Binus.BL.CertificateGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dichi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\faisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,8 +23,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://ecomindo.pkgs.visualstudio.com/Nexus/_packaging/Nexus.Base/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/ecomindo/0ef2590c-ea2d-4dcb-833d-f63f1e7e1e53/_packaging/Binus.BL.Helper/nuget/v3/index.json": {}
+          "https://ecomindo.pkgs.visualstudio.com/Nexus/_packaging/Nexus.Base/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -42,9 +41,21 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "HtmlRenderer.PdfSharp": {
+              "target": "Package",
+              "version": "[1.5.1-beta1, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.11.1, )"
+            },
+            "PdfSharp": {
+              "target": "Package",
+              "version": "[1.50.4000-beta3b, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -57,6 +68,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -65,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
